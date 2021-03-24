@@ -4,17 +4,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Food Dude</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page" class="nav-link">Home</a>
-      <a href="/posts" class="nav-link">Posts</a>
-      <a href="/design-sytem/Food-Dude.pdf" target="_blank" class="nav-link"
-        >Design System</a
-      >
-    </nav>
+    <header id="header" class="header-background" role="header">
+      <nav  role="navigation">
+        <a href="/" aria-current="page" class="nav-link">Home</a>
+        <a href="posts.html" class="nav-link">Posts</a>
+        <a href="design-system/Food-Dude.pdf" target="_blank" class="nav-link"
+          >Design System</a
+        >
+      </nav>
+      <img src="brand-assets/logo.png" class="logo-img" alt="The Food Dude"  />
+    </header>
 
-    <div class="home-page-wrapper">
+    <main class="home-page-wrapper" role="main">
       <div class="hero-image">
         <div class="hero-text">
           <h1>The Food Dude</h1>
@@ -27,40 +31,46 @@
           If you think you can't cook, think again. We're here to help you build
           your confidenece by cooking straigthforward, healthy dishes.
         </p>
-      </div>
 
-      <div id="subscribe">
-        <form action="#">
-          <div class="form-group">
-            <input
-              type="email"
-              name="email"
-              required
-              id="txt-email"
-              placeholder="Enter your email address"
-            />
-            <button class="subscribe-btn">Subscribe</button>
-          </div>
-        </form>
+        <div id="subscribe">
+          <form action="#">
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                required
+                id="txt-email"
+                placeholder="Enter your email address"
+                title="Enter your email address to subscribe"
+              />
+              <button class="subscribe-btn">Subscribe</button>
+            </div>
+          </form>
+        </div>
       </div>
 
       <h2 class="latest-recipes">Latest Recipes</h2>
       <div id="recipe-cards">
         <div class="recipe-card">
           <h3>
-            <img src="brand-assets/cooking-pot-icon.png" class="pan-icon" />
+            <img
+              src="brand-assets/cooking-pot-icon.png"
+              class="pan-icon"
+              alt="cooking pot icon"
+            />
             Chili con carne
           </h3>
-          <img src="images/chili-con-carne.jpg" class="card-image" />
+          <img
+            src="images/chili-con-carne.jpg"
+            class="card-image"
+            alt="Chili con carne"
+          />
           <p>
             Chili con carne, meaning "chili with meat", is a spicy stew
             containing chili peppers, meat, tomatoes and kidney beans.
           </p>
           <div class="card-footer">
-            <a href="post.html" class="view-recipe-link"
-              >View Recipe
-              <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-            </a>
+            <a href="post.html" class="view-recipe-link">View Recipe </a>
           </div>
         </div>
 
@@ -69,41 +79,44 @@
             <img
               src="brand-assets/cooking-pot-icon.png"
               class="pan-icon"
+              alt="cooking pot icon"
             />Spaghetti carbonara
           </h3>
-          <img src="images/carbonara.jpg" class="card-image" />
+          <img
+            src="images/carbonara.jpg"
+            class="card-image"
+            alt="Spaghetti carbonara"
+          />
 
           <p>
             Carbonara is an Italian pasta dish from Rome made with egg, hard
             cheese, cured pork, and black pepper.
           </p>
           <div class="card-footer">
-            <a href="post.html" class="view-recipe-link"
-              >View Recipe
-              <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-            </a>
+            <a href="post.html" class="view-recipe-link">View Recipe </a>
           </div>
         </div>
 
         <div class="recipe-card">
           <h3>
-            <img src="brand-assets/cooking-pot-icon.png" class="pan-icon" />
-            Curry
+            <img
+              src="brand-assets/cooking-pot-icon.png"
+              class="pan-icon"
+              alt="cooking pot icon"
+            />
+            Chicken Curry
           </h3>
-          <img src="images/curry.jpg" class="card-image" />
+          <img src="images/curry.jpg" class="card-image" alt="Chicken Curry" />
           <p>
             Classic chicken curry, nice, easy recipe with delicious results.
           </p>
           <div class="card-footer">
-            <a href="post.html" class="view-recipe-link"
-              >View Recipe
-              <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-            </a>
+            <a href="post.html" class="view-recipe-link">View Recipe </a>
           </div>
         </div>
       </div>
     </div>
 
-    <footer>© Mark Morgan 2021</footer>
+    <footer role="contentinfo">© Mark Morgan 2021</footer>
   </body>
 </html>
