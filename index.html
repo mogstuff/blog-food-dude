@@ -5,5 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Food Dude</title>
   </head>
-  <body></body>
+  <body>
+    <div class="home-page-wrapper">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>The Food Dude</h1>
+          <h2>Learn how to cook simple, tasty, healthy food.</h2>
+        </div>
+      </div>
+
+      <div id="home-text">
+        <p class="intro">
+          If you think you can't cook, think again. We're here to help you build
+          your confidenece by cooking straigthforward, healthy dishes.
+        </p>
+      </div>
+
+      <div id="subscribe">
+        <form action="#">
+          <div class="form-group">
+            <input
+              type="email"
+              name="email"
+              required
+              id="txt-email"
+              placeholder="Enter your email address"
+            />
+            <button class="subscribe-btn">Subscribe</button>
+          </div>
+        </form>
+      </div>
+
+      <h2 class="latest-recipes">Latest Recipes</h2>
+      <div id="recipe-cards">
+        <div class="recipe-card">
+          <h3>
+            <img src="brand-assets/cooking-pot-icon.png" class="pan-icon" />
+            Chili con carne
+          </h3>
+          <img src="images/chili-con-carne.jpg" class="card-image" />
+          <p>
+            Chili con carne, meaning "chili with meat", is a spicy stew
+            containing chili peppers, meat, tomatoes and kidney beans.
+          </p>
+          <div class="card-footer">
+            <a href="#/post" class="view-recipe-link"
+              >View Recipe
+              <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <h3>
+            <img
+              src="brand-assets/cooking-pot-icon.png"
+              class="pan-icon"
+            />Spaghetti carbonara
+          </h3>
+          <img src="images/carbonara.jpg" class="card-image" />
+
+          <p>
+            Carbonara is an Italian pasta dish from Rome made with egg, hard
+            cheese, cured pork, and black pepper.
+          </p>
+          <div class="card-footer">
+            <a href="#/post" class="view-recipe-link"
+              >View Recipe
+              <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="recipe-card">
+          <h3>
+            <img src="brand-assets/cooking-pot-icon.png" class="pan-icon" />
+            Curry
+          </h3>
+          <img src="images/curry.jpg" class="card-image" />
+          <p>
+            Classic chicken curry, nice, easy recipe with delicious results.
+          </p>
+          <div class="card-footer">
+            <a href="#/post" class="view-recipe-link"
+              >View Recipe
+              <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
