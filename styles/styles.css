@@ -12,10 +12,9 @@
 body {
   margin: 0;
   padding: 0;
-}
-
-.content-wrapper {
-  margin-top: -18px;
+  display: grid;
+  height: 100%;
+  grid-template-rows: auto 1fr auto;
 }
 
 .pan-icon {

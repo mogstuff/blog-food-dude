@@ -26,6 +26,7 @@
 .card-footer {
   padding: 1em;
   margin-top: 0;
+  text-align: right;
 }
 
 .view-recipe-link {
@@ -33,8 +34,10 @@
   margin-top: 0;
 }
 
-.view-recipe-link i {
-  margin-left: 10px;
+.view-recipe-link:hover {
+  padding: 1em;
+  margin-top: 0;
+  text-decoration: underline;
 }
 
 @media (max-width: 815px) {
