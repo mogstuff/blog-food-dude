@@ -1,0 +1,29 @@
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex: 1;
+}
+
+.logo-img {
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+@media (max-width: 815px) {
+  .logo-img {
+    display: block;
+    max-width: 300px;
+    max-height: auto;
+  }
+}

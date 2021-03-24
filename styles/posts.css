@@ -1,0 +1,57 @@
+.post-summary {
+  display: flex;
+}
+
+.thumb-img {
+  flex: 1;
+  padding: 1em;
+  max-width: 200px;
+  height: auto;
+}
+
+.thumb-img img {
+  max-width: 200px;
+  height: auto;
+}
+
+.recipe-summary-text {
+  padding: 1em;
+  display: flex;
+}
+
+.recipe-summary-text p {
+  padding: 2em;
+}
+
+.recipe-card-summary {
+  margin: 1em;
+  padding: 1em;
+}
+
+.recipe-card-summary h3 {
+  padding: 1em;
+}
+
+#posts-list h1 {
+  padding: 1em;
+}
+
+.post-list-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.recipe-summary-footer {
+  text-align: right;
+}
+
+.recipe-card-summary-link {
+  margin-right: 10px;
+  padding: 1em;
+  display: block;
+  text-decoration: none;
+}
+
+.recipe-card-summary-link i {
+  margin-left: 10px;
+}

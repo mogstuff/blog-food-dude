@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+body {
+  font-family: Nunito, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  font-size: medium;
+}
+
+.nav-link {
+  color: whitesmoke;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.recipe-card h3 {
+  color: white;
+}
+
+.card-footer {
+  color: white;
+}
+
+.view-recipe-link {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  text-align: right;
+  font-size: smaller;
+}
+
+@media (max-width: 815px) {
+  body {
+    font-size: x-small;
+  }
+}

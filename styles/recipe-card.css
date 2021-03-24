@@ -1,0 +1,58 @@
+.recipe-card {
+  border: 1px solid var(--tomato);
+  width: 30%;
+  border-radius: 5px;
+  display: grid;
+  height: auto;
+}
+
+.recipe-card h3 {
+  padding: 1em;
+  margin-top: 0;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: auto;
+  padding: 0;
+  margin-top: -15px;
+}
+
+.recipe-card p {
+  padding: 1em;
+  margin: 1em;
+}
+
+.card-footer {
+  padding: 1em;
+  margin-top: 0;
+}
+
+.view-recipe-link {
+  padding: 1em;
+  margin-top: 0;
+}
+
+.view-recipe-link i {
+  margin-left: 10px;
+}
+
+@media (max-width: 815px) {
+  .recipe-card {
+    border: 1px solid var(--tomato);
+    width: 94%;
+    max-width: 100%;
+    border-radius: 5px;
+    display: grid;
+    height: auto;
+    margin: 5px;
+    justify-content: center;
+  }
+
+  .card-image {
+    max-width: 100%;
+    max-height: auto;
+    padding: 0;
+    margin-top: -15px;
+  }
+}

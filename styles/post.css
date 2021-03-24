@@ -1,0 +1,46 @@
+.post {
+  padding: 0;
+  margin: 0;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: 1fr 3fr 6fr;
+}
+
+.post-header h1 {
+  padding-top: 1em;
+  margin-left: 10vw;
+}
+
+.ingredients-wrapper {
+  display: flex;
+}
+
+.ingredients {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 15px;
+  flex: 1;
+}
+
+.food-img {
+  flex: 1;
+}
+
+.food-img img {
+  max-width: 80%;
+  max-height: auto;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+.method {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+#carbonara-post {
+  background-image: url("https://i.postimg.cc/y8gSWxQb/carbonara.jpg");
+  height: 100vh;
+}
