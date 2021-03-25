@@ -9,6 +9,8 @@
 @import "posts.css";
 @import "post.css";
 
+@import "author.css";
+
 body {
   margin: 0;
   padding: 0;
@@ -20,4 +22,9 @@ body {
 .pan-icon {
   max-width: 2em;
   margin-right: 20px;
+}
+
+figcaption {
+  color: black;
+  padding: 0.5em;
 }
