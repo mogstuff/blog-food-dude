@@ -58,3 +58,7 @@ footer {
   background-color: var(--tomato);
   color: white;
 }
+
+.social-link {
+  color: var(--avocado);
+}

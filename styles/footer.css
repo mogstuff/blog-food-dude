@@ -1,4 +1,20 @@
 footer {
   padding: 1em;
   margin-top: 1em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.copyright {
+  flex: 1;
+}
+
+.social-links-footer {
+  flex: 1;
+}
+
+.footer-social-link {
+  color: white;
+  margin: 1em;
 }
