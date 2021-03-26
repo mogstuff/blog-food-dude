@@ -41,4 +41,8 @@ nav ul li {
     max-width: 300px;
     max-height: auto;
   }
+
+  nav ul li {
+    display: block;
+  }
 }

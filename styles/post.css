@@ -117,12 +117,26 @@
   padding: 1em;
   opacity: 95%;
   width: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .social-link {
   margin: 3px;
   padding: 3px;
+}
+
+.social-links-post ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social-link {
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 815px) {
