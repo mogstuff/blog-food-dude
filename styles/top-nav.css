@@ -35,7 +35,19 @@ nav ul li {
   background-color: black;
 }
 
+.hamburger-menu {
+  color: white;
+}
+
+.icon {
+  display: none;
+}
+
 @media (max-width: 815px) {
+  .icon {
+    display: block;
+  }
+
   .logo-img {
     display: block;
     max-width: 300px;
