@@ -55,6 +55,28 @@ nav ul li {
   }
 
   nav ul li {
+    display: none;
+  }
+
+  .responsive ul {
+    margin-top: 40px;
+    margin-left: -25px;
+    padding-left: 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+  }
+
+  .responsive ul li {
     display: block;
+    margin: 0;
+    background-color: black;
+  }
+
+  .responsive ul li a:hover {
+    display: block;
+
+    background-color: slategrey;
   }
 }
